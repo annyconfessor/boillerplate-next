@@ -23,6 +23,14 @@
     ]
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@vercel/node": "^1.12.1",
+    "axios": "^0.24.0",
+    "framer-motion": "^4",
+    "mongodb": "^4.2.2",
     "next": "11.1.2",
     "next-pwa": "^5.3.1",
     "react": "17.0.2",
@@ -37,6 +45,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
     "@types/styled-components": "^5.1.15",
