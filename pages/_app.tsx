@@ -1,8 +1,8 @@
-import { ReactChild } from "react"
-import ThemeContainer from "./../src/theme"
+import { ReactChild } from 'react'
+import ThemeContainer from './../src/theme'
 
 interface MyAppProps {
-  Component: any,
+  Component: any
   pageProps: ReactChild
 }
 
