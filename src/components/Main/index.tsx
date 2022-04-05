@@ -6,7 +6,7 @@ const StyledColumn = styled.div``
 const Column = () => {
   return (
     <StyledColumn>
-      CRUD PROJECT WITH NEXTJS, MONDB AND APOLLO SERVER
+      WON PROJECT WITH NEXTJS, GRAPHQL AND APOLLO SERVER
     </StyledColumn>
   )
 }
