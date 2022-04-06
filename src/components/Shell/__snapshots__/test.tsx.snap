@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Shell /> should render the text 1`] = `
+.c0 {
+  background-color: #d4d4d4;
+  height: 1000vh;
+}
+
+.c1 {
+  color: #06092b;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    BOILERPLATE WITH: NEXTJS, TYPESCRIPT, JEST AND REACT TESTING LIBRARY, STYLED COMPONENTS AND STORYBOOK.
+  </div>
+</div>
+`
