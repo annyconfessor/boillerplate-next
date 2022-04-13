@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import * as images from 'assets/images'
 
 type ImageProps = {
   name: string
@@ -9,21 +10,23 @@ type ImageProps = {
 }
 
 const Figure = styled.figure`
-  width: 100px;
-  height: 100px;
+  background-color: red;
+  width: 200px;
+  height: 60px;
 `
 
 const Img = styled.img`
   width: 100%;
   height: 100%;
 `
+const Image = images as unknown as Record<string, never>
 
-const Image = ({ alt, src, name }: ImageProps) => {
+const ImageComponent = ({ alt, src, name }: ImageProps) => {
   return (
     <Figure>
-      <Img name={name} src={src} alt={alt} />
+      <Img src={name ? Image[name] : src} alt={alt} />
     </Figure>
   )
 }
 
-export default Image
+export default ImageComponent
