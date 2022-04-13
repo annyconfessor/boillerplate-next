@@ -6,17 +6,11 @@ exports[`<Shell /> should render the text 1`] = `
   height: 1000vh;
 }
 
-.c1 {
-  color: #06092b;
-}
-
 <div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    BOILERPLATE WITH: NEXTJS, TYPESCRIPT, JEST AND REACT TESTING LIBRARY, STYLED COMPONENTS AND STORYBOOK.
-  </div>
+  <h1>
+    SHELL
+  </h1>
 </div>
 `

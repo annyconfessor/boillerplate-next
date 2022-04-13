@@ -1,13 +1,29 @@
-import { Icons } from './../Icons'
+import styled from 'styled-components'
 
 type ImageProps = {
-  name?: string
+  name: string
   alt?: string
-  source?: string
+  src?: string
+  width?: number
+  height?: number
 }
 
-const Image = ({ alt, source }: ImageProps) => {
-  return <Icons alt={alt} src={source}></Icons>
+const Figure = styled.figure`
+  width: 100px;
+  height: 100px;
+`
+
+const Img = styled.img`
+  width: 100%;
+  height: 100%;
+`
+
+const Image = ({ alt, src, name }: ImageProps) => {
+  return (
+    <Figure>
+      <Img name={name} src={src} alt={alt} />
+    </Figure>
+  )
 }
 
 export default Image

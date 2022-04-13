@@ -1,5 +1,12 @@
-import Shell from 'components/Shell'
+import { Login } from 'pages/Login'
 
-export default function Home() {
-  return <Shell />
+const Home = () => {
+  return (
+    <div>
+      <h1>Home</h1>
+      <Login />
+    </div>
+  )
 }
+
+export default Home

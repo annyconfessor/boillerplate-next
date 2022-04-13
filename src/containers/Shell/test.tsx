@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 
-import Shell from '.'
+import Shell from './Shell'
 
 describe('<Shell />', () => {
   it('should render the text', () => {

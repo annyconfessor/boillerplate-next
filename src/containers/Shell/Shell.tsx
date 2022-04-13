@@ -6,17 +6,10 @@ const Background = styled.div`
   height: 1000vh;
 `
 
-const Text = styled.div`
-  color: #06092b;
-`
-
 const Shell = () => {
   return (
     <Background>
-      <Text>
-        BOILERPLATE WITH: NEXTJS, TYPESCRIPT, JEST AND REACT TESTING LIBRARY,
-        STYLED COMPONENTS AND STORYBOOK.
-      </Text>
+      <h1>SHELL</h1>
     </Background>
   )
 }
